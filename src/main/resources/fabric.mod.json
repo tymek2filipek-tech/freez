@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "airfreeze",
+  "version": "${version}",
+  "name": "Air Freeze",
+  "description": "Best-effort movement freeze that does not snap back after Ender Pearl teleports.",
+  "authors": [
+    "Adixu_YT"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "pl.adixu.airfreeze.AirFreezeClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
