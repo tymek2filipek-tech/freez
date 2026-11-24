@@ -25,7 +25,7 @@ public final class AirFreezeClient implements ClientModInitializer {
                 "key.airfreeze.toggle",
                 InputUtil.Type.KEYSYM,
                 GLFW.GLFW_KEY_H,
-                KeyBinding.Category.MOVEMENT
+                "key.categories.movement"
         ));
 
         ClientTickEvents.END_CLIENT_TICK.register(AirFreezeClient::tick);
